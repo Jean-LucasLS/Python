@@ -1,3 +1,4 @@
+# O "(sep='')" indica qual separador será utlizado, e "(end='')" o que será executado no final
 nome = input('Digite seu nome: ')
 idade = input('Digite sua idade: ')
 print('Meu nome é', nome, sep=' ', end='')
