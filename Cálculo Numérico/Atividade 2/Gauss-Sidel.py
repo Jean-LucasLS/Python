@@ -1,7 +1,7 @@
 '''Metodo de Gauss-Sidel
 NOME: Isabella                       RA:
 NOME: Jean-Lucas Luquetti Silva      RA: 120443
-NOME: Thamires Verri                 RA:
+NOME: Thamires Verri Ribeiro         RA: 140814
 '''
 # Coeficientes da matriz A (3x3) e B
 A = [ 3, -1,  1,

@@ -1,0 +1,11 @@
+    def convert_cv_to_qt(self, cv_image): # Convert "cv2" image to "numpy array", then convert to "PyQt5.QtWidgets.QImage"
+        import cv2
+        from PIL import Image
+        import numpy as np
+        from PyQt5.QtGui import QImage
+        
+        rgb_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
+        im_pil = Image.fromarray(rgb_image)
+        im_np = np.asarray(im_pil)                                                                                                                                                                           
+        qimage = QImage(im_np, im_np.shape[1], im_np.shape[0], QImage.Format_RGB888) 
+        return qimage
