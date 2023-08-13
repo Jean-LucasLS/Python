@@ -11,4 +11,9 @@ phrase4 = '        Jucaju is not a DIGNITAS        '
 print('#'*4, phrase4, '#'*4)
 print('#'*4, phrase4.lstrip(), '#'*4)
 print('#'*4, phrase4.rstrip(), '#'*4)
-print('#'*4, phrase4.strip(), '#'*4)
+print('#'*4, phrase4.strip(), '#'*4, end='\n\n')
+
+list = phrase.split()
+print(list)
+print(' '.join(list))
+print('-'.join(list))

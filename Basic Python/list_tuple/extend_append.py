@@ -2,8 +2,7 @@ list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 list3 = list2 + list1 # A ordem da soma das listas importa
 list4 = list(range(1, 10, 2)) # Criação de uma lista que vai do número 1 ao 10, pulando de 2 em 2.
-print(list4)
-print(list3)
+print(list4); print(list3)
 
 list3 = list1 + list2
 print(list3)
