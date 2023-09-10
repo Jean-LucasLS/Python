@@ -1,4 +1,4 @@
-def message(msg, name): # A funçãp irá ler uma tupla, separando-a
+def message(msg, name): # The function will read a tuple, separating it
   return f'{msg}, {name}!'
 
 def execute(func, *args):

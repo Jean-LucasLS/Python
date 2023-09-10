@@ -3,7 +3,7 @@ def operator(op):
     return op * num
   return multiply
 
-double     = operator(2) # Ficará salvo na memória da variável 'double' que a operação será com o número passado como argumento
+double     = operator(2) # It will be saved in the memory of the variable 'double' that the operation will be with the number passed as argument
 triple     = operator(3)
 quadrupe   = operator(4)
 

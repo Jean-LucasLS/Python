@@ -6,10 +6,10 @@ def message1(msg, name):
 msg1 = message1('It\'s cold', 'Dodger')
 msg2 = message1('It\'s hot' , 'Jucaju')
 
-print(msg1  , msg2  , sep=' #### ') # As variáveis armazenam funções "não resolvidas"
-print(msg1(), msg2(), sep=' #### ') # Executando as variáveis com chamada de função, clama-se pela resolução das funções "armazenadas"
+print(msg1  , msg2  , sep=' #### ') # Variables store "unresolved" functions
+print(msg1(), msg2(), sep=' #### ') # Executing variables as function calls requires the resolution of the "stored" functions
 
-#### Adiando a passagem do parâmetro 'name' ####
+#### Deferring the passing of the 'name' parameter ####
 
 def message2(msg):
   def closured_msg2(name):

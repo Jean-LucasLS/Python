@@ -13,5 +13,5 @@ def sum(x, y):
 
 # print(sum(4, 8))
 
-var = sum(2, 4)
-print(type(var))
+var = sum(2, 4) # The function 'sum' has been executed fully as 'inner'
+print(type(var)) # 'result' was returned ('inner' -> 'result = func(*args)' has executed 'sum')
