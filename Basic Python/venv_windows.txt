@@ -9,4 +9,5 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass <--> Allow scripts being executed at
 venv\Scripts\activate <--> Activate virtual enviroment
 deactivate <--> Deactivates virtual enviroment
 
+pip freeze <--> Shows all frameworks and its versions
 pip freeze > requirements.txt <--> Create the 'requirements.txt' file
