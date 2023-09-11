@@ -1,7 +1,7 @@
 questions = [
   {'Question': 'Which president of Brazil did not practice corruption?',
-   'Options': ['Bandido, Bêbado, Condenado em três instâncias', 'Dilma Rousseff', 'Fernando Collor de Melo', 'Jair Messias Bolsonaro, o Mito'],
-   'Answer': 'Jair Messias Bolsonaro, o Mito'
+   'Options': ['Bandido, Bêbado, Condenado em três instâncias', 'Dilma Rousseff', 'Fernando Collor de Melo', 'Jair Messias Bolsonaro'],
+   'Answer': 'Jair Messias Bolsonaro'
   },
   {
     'Question': 'Which is the latim name of car?',
