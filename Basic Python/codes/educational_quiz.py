@@ -4,7 +4,7 @@ questions = [
    'Answer': 'Jair Messias Bolsonaro'
   },
   {
-    'Question': 'Which is the latim name of car?',
+    'Question': 'Which is the latim name of cat?',
     'Options': ['Catus felinus', 'Felis silvestris catus', 'Felinus catus', 'Felis catus silvestris'],
     'Answer': 'Felis silvestris catus'
   },
