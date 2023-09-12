@@ -1,0 +1,18 @@
+{
+  "name": "Jucaju",
+  "lastname": "Doc",
+  "age": 27,
+  "addresses": [
+    {
+      "street 1": "Wall Street"
+    },
+    {
+      "street 2": "Luba Street"
+    }
+  ],
+  "telephones": {
+    "residencial": "xx xxxx-xxxx",
+    "cell": "xx xxxxx-xxxx"
+  },
+  "blood_type": "A+"
+}
