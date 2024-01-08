@@ -1,0 +1,7 @@
+#### Merge, join, concatenate and compare ####
+
+https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
+
+#### pandas.DataFrame.to_excel ####
+
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html
