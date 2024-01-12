@@ -12,11 +12,11 @@ print(dict.keys(), dict.values(), dict.items(), sep='\n')
 del dict['Non-existing']
 
 if dict.get('Non-existing') is None:
-  print('This key doest not exist')
+  print('This key does not exist')
   
-dict.get('Non-existing', print('This key doest not exist')) # If the method 'get' doest not found the passed key, it execute the second argument.
+dict.get('Non-existing', print('This key does not exist')) # If the method 'get' doest not found the passed key, it execute the second argument.
 if dict.get('Non-existing', True):
-  print('This key doest not exist')
+  print('This key does not exist')
   
 #### The method 'setdefault()' add a key-value only if they doest not exist. If exists, it does nothing. ####
 
